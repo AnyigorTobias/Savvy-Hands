@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+streamlit = "*"
+altair = "==4"
+pypdf2 = "*"
+openai = "*"
+filetype = "*"
+faiss-cpu = "*"
+llama-index-embeddings-together = "*"
+chromadb = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
